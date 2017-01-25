@@ -7,7 +7,7 @@ To reproduce:
 1. Type a couple of words.
 2. Tap "Capitalize Words". You Should See All Words Begin To Get Capitalized Like This.
 3. Tap "Capitalize Sentences. You will see your typing return to sentence capitalization like this. 
-4. Switch to a third-party keyboard. 
+4. Switch to a third-party keyboard. I used GBoard.
 5. Tap "Capitalize Words". You will see your typing remain in sentence capitalization like this.
 
 
