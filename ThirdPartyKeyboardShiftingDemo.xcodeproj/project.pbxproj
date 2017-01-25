@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CF5B4CB1E39493E0041CA0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF5B4CA1E39493E0041CA0A /* AppDelegate.swift */; };
+		2CF5B4CD1E39493E0041CA0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF5B4CC1E39493E0041CA0A /* ViewController.swift */; };
+		2CF5B4D01E39493E0041CA0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CF5B4CE1E39493E0041CA0A /* Main.storyboard */; };
+		2CF5B4D21E39493E0041CA0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF5B4D11E39493E0041CA0A /* Assets.xcassets */; };
+		2CF5B4D51E39493E0041CA0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CF5B4D31E39493E0041CA0A /* LaunchScreen.storyboard */; };
+		2CF5B4E01E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF5B4DF1E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemoTests.swift */; };
+		2CF5B4EB1E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF5B4EA1E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CF5B4DC1E39493E0041CA0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CF5B4BF1E39493E0041CA0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CF5B4C61E39493E0041CA0A;
+			remoteInfo = ThirdPartyKeyboardShiftingDemo;
+		};
+		2CF5B4E71E39493E0041CA0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CF5B4BF1E39493E0041CA0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CF5B4C61E39493E0041CA0A;
+			remoteInfo = ThirdPartyKeyboardShiftingDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CF5B4C71E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThirdPartyKeyboardShiftingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CF5B4CA1E39493E0041CA0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CF5B4CC1E39493E0041CA0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CF5B4CF1E39493E0041CA0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CF5B4D11E39493E0041CA0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CF5B4D41E39493E0041CA0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CF5B4D61E39493E0041CA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CF5B4DB1E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThirdPartyKeyboardShiftingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CF5B4DF1E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPartyKeyboardShiftingDemoTests.swift; sourceTree = "<group>"; };
+		2CF5B4E11E39493E0041CA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CF5B4E61E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThirdPartyKeyboardShiftingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CF5B4EA1E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPartyKeyboardShiftingDemoUITests.swift; sourceTree = "<group>"; };
+		2CF5B4EC1E39493E0041CA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CF5B4C41E39493E0041CA0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF5B4D81E39493E0041CA0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF5B4E31E39493E0041CA0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CF5B4BE1E39493E0041CA0A = {
+			isa = PBXGroup;
+			children = (
+				2CF5B4C91E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemo */,
+				2CF5B4DE1E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemoTests */,
+				2CF5B4E91E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemoUITests */,
+				2CF5B4C81E39493E0041CA0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CF5B4C81E39493E0041CA0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CF5B4C71E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemo.app */,
+				2CF5B4DB1E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemoTests.xctest */,
+				2CF5B4E61E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CF5B4C91E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2CF5B4CA1E39493E0041CA0A /* AppDelegate.swift */,
+				2CF5B4CC1E39493E0041CA0A /* ViewController.swift */,
+				2CF5B4CE1E39493E0041CA0A /* Main.storyboard */,
+				2CF5B4D11E39493E0041CA0A /* Assets.xcassets */,
+				2CF5B4D31E39493E0041CA0A /* LaunchScreen.storyboard */,
+				2CF5B4D61E39493E0041CA0A /* Info.plist */,
+			);
+			path = ThirdPartyKeyboardShiftingDemo;
+			sourceTree = "<group>";
+		};
+		2CF5B4DE1E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CF5B4DF1E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemoTests.swift */,
+				2CF5B4E11E39493E0041CA0A /* Info.plist */,
+			);
+			path = ThirdPartyKeyboardShiftingDemoTests;
+			sourceTree = "<group>";
+		};
+		2CF5B4E91E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CF5B4EA1E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemoUITests.swift */,
+				2CF5B4EC1E39493E0041CA0A /* Info.plist */,
+			);
+			path = ThirdPartyKeyboardShiftingDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CF5B4C61E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CF5B4EF1E39493E0041CA0A /* Build configuration list for PBXNativeTarget "ThirdPartyKeyboardShiftingDemo" */;
+			buildPhases = (
+				2CF5B4C31E39493E0041CA0A /* Sources */,
+				2CF5B4C41E39493E0041CA0A /* Frameworks */,
+				2CF5B4C51E39493E0041CA0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThirdPartyKeyboardShiftingDemo;
+			productName = ThirdPartyKeyboardShiftingDemo;
+			productReference = 2CF5B4C71E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CF5B4DA1E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CF5B4F21E39493E0041CA0A /* Build configuration list for PBXNativeTarget "ThirdPartyKeyboardShiftingDemoTests" */;
+			buildPhases = (
+				2CF5B4D71E39493E0041CA0A /* Sources */,
+				2CF5B4D81E39493E0041CA0A /* Frameworks */,
+				2CF5B4D91E39493E0041CA0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CF5B4DD1E39493E0041CA0A /* PBXTargetDependency */,
+			);
+			name = ThirdPartyKeyboardShiftingDemoTests;
+			productName = ThirdPartyKeyboardShiftingDemoTests;
+			productReference = 2CF5B4DB1E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CF5B4E51E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CF5B4F51E39493E0041CA0A /* Build configuration list for PBXNativeTarget "ThirdPartyKeyboardShiftingDemoUITests" */;
+			buildPhases = (
+				2CF5B4E21E39493E0041CA0A /* Sources */,
+				2CF5B4E31E39493E0041CA0A /* Frameworks */,
+				2CF5B4E41E39493E0041CA0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CF5B4E81E39493E0041CA0A /* PBXTargetDependency */,
+			);
+			name = ThirdPartyKeyboardShiftingDemoUITests;
+			productName = ThirdPartyKeyboardShiftingDemoUITests;
+			productReference = 2CF5B4E61E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CF5B4BF1E39493E0041CA0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Michelle Tessier";
+				TargetAttributes = {
+					2CF5B4C61E39493E0041CA0A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					2CF5B4DA1E39493E0041CA0A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2CF5B4C61E39493E0041CA0A;
+					};
+					2CF5B4E51E39493E0041CA0A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2CF5B4C61E39493E0041CA0A;
+					};
+				};
+			};
+			buildConfigurationList = 2CF5B4C21E39493E0041CA0A /* Build configuration list for PBXProject "ThirdPartyKeyboardShiftingDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CF5B4BE1E39493E0041CA0A;
+			productRefGroup = 2CF5B4C81E39493E0041CA0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CF5B4C61E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemo */,
+				2CF5B4DA1E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemoTests */,
+				2CF5B4E51E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CF5B4C51E39493E0041CA0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF5B4D51E39493E0041CA0A /* LaunchScreen.storyboard in Resources */,
+				2CF5B4D21E39493E0041CA0A /* Assets.xcassets in Resources */,
+				2CF5B4D01E39493E0041CA0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF5B4D91E39493E0041CA0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF5B4E41E39493E0041CA0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CF5B4C31E39493E0041CA0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF5B4CD1E39493E0041CA0A /* ViewController.swift in Sources */,
+				2CF5B4CB1E39493E0041CA0A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF5B4D71E39493E0041CA0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF5B4E01E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF5B4E21E39493E0041CA0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF5B4EB1E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CF5B4DD1E39493E0041CA0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CF5B4C61E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemo */;
+			targetProxy = 2CF5B4DC1E39493E0041CA0A /* PBXContainerItemProxy */;
+		};
+		2CF5B4E81E39493E0041CA0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CF5B4C61E39493E0041CA0A /* ThirdPartyKeyboardShiftingDemo */;
+			targetProxy = 2CF5B4E71E39493E0041CA0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CF5B4CE1E39493E0041CA0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CF5B4CF1E39493E0041CA0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CF5B4D31E39493E0041CA0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CF5B4D41E39493E0041CA0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CF5B4ED1E39493E0041CA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CF5B4EE1E39493E0041CA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CF5B4F01E39493E0041CA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ThirdPartyKeyboardShiftingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bloombuilt.keyboarddemo.ThirdPartyKeyboardShiftingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2CF5B4F11E39493E0041CA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ThirdPartyKeyboardShiftingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bloombuilt.keyboarddemo.ThirdPartyKeyboardShiftingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2CF5B4F31E39493E0041CA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ThirdPartyKeyboardShiftingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bloombuilt.keyboarddemo.ThirdPartyKeyboardShiftingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThirdPartyKeyboardShiftingDemo.app/ThirdPartyKeyboardShiftingDemo";
+			};
+			name = Debug;
+		};
+		2CF5B4F41E39493E0041CA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ThirdPartyKeyboardShiftingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bloombuilt.keyboarddemo.ThirdPartyKeyboardShiftingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThirdPartyKeyboardShiftingDemo.app/ThirdPartyKeyboardShiftingDemo";
+			};
+			name = Release;
+		};
+		2CF5B4F61E39493E0041CA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ThirdPartyKeyboardShiftingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bloombuilt.keyboarddemo.ThirdPartyKeyboardShiftingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ThirdPartyKeyboardShiftingDemo;
+			};
+			name = Debug;
+		};
+		2CF5B4F71E39493E0041CA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ThirdPartyKeyboardShiftingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bloombuilt.keyboarddemo.ThirdPartyKeyboardShiftingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ThirdPartyKeyboardShiftingDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CF5B4C21E39493E0041CA0A /* Build configuration list for PBXProject "ThirdPartyKeyboardShiftingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CF5B4ED1E39493E0041CA0A /* Debug */,
+				2CF5B4EE1E39493E0041CA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CF5B4EF1E39493E0041CA0A /* Build configuration list for PBXNativeTarget "ThirdPartyKeyboardShiftingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CF5B4F01E39493E0041CA0A /* Debug */,
+				2CF5B4F11E39493E0041CA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CF5B4F21E39493E0041CA0A /* Build configuration list for PBXNativeTarget "ThirdPartyKeyboardShiftingDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CF5B4F31E39493E0041CA0A /* Debug */,
+				2CF5B4F41E39493E0041CA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CF5B4F51E39493E0041CA0A /* Build configuration list for PBXNativeTarget "ThirdPartyKeyboardShiftingDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CF5B4F61E39493E0041CA0A /* Debug */,
+				2CF5B4F71E39493E0041CA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CF5B4BF1E39493E0041CA0A /* Project object */;
+}
